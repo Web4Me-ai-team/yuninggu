@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuning Gu's Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="profile/1.svg" alt="Yuning Gu" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Yuning Gu">Yuning Gu</h1>
+          <p class="title">Pharmaceutic Preparations Student</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+        </button>
+      </div>
+      <div class="sidebar-info_more" data-sidebar-more>
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:yuninggu@buffalo.edu" class="contact-link">yuninggu@buffalo.edu</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+17162222131" class="contact-link">+1 (716) 222-2131</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Buffalo, NY</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yuninggu2002" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=QUiuMUMAAAAJ&hl=zh-CN" class="social-link">
+              <i class="fab fa-google"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Awards</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <h2>👋 Hi, I'm Yuning Gu</h2>
+          <p>Hi, I’m Yuning Gu — a soon-to-be graduate from the School of Pharmacy at Heilongjiang University of Chinese Medicine, majoring in Pharmaceutic Preparations. This fall, I’ll be joining the Department of Pharmacology and Toxicology at the Jacobs School of Medicine and Biomedical Sciences, University at Buffalo, where I’ll continue exploring my passion for pharmacology, drug development, and biomedical research.</p>
+          <p>Over the past few years, I’ve gained hands-on experience in pharmaceutical analysis and experimental pharmacology. My work has spanned GC–MS profiling, network pharmacology, molecular docking, and in vivo/in vitro studies—including a published study on the hypoglycemic mechanisms of peony seed blended oil. I also interned at Bayer (China) as a QC analyst, conducting routine HPLC, NIR, microbiological, and moisture content testing to ensure product quality and compliance.</p>
+          <p>When I’m not in the lab, I’m probably fishing, watching anime, or immersed in a game of Genshin Impact, Honkai: Star Rail, or PUBG. I enjoy reading alternate-history novels, listening to electronic music and J-pop, and I’m passionate about badminton and wild swimming.</p>
+          <p>I also love to travel—and have led student trips across Thailand, Malaysia, Laos, the U.S., Russia, and Hong Kong. Whether in science or life, I’m always looking for new places to explore, new ideas to question, and new skills to master.</p>
+          <p class="contact">Thanks for visiting my site—feel free to connect!</p>
+        </section>
+      </article>
+
+      <article class="education" data-page="education">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="book-outline"></ion-icon> Education
+          </h2>
+        </header>
+        <section class="timeline" id="education-container">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Heilongjiang University of Chinese Medicine</h4>
+              <span class="graduation-date">2025.06</span>
+              <p class="degree">Bachelor of Science</p>
+              <p class="field">Pharmaceutic Preparations</p>
+              <p class="timeline-text">Retrosynthesis of Wulfenioidins L with Potential Anti-Zika Virus Activity<br>Study on the in Vitro Inhibitory Activity of Peony Seed Blended Oil on α-Amylase and α-Glucosidase<br>Active ingredients and mechanisms of peony seed blended oil in diabetes treatment using Kunming mice: Insights from GC–MS, network pharmacology, and experimental verification</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University of Helsinki</h4>
+              <span class="graduation-date">2024.08</span>
+              <p class="degree">Open University</p>
+              <p class="field">Programming Language (Python, Haskell, Data Analyze) and AI</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">South-Eastern Finland University of Applied Sciences</h4>
+              <span class="graduation-date">2024.04</span>
+              <p class="degree">Open University</p>
+              <p class="field">Programming Language (C#)</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University at Buffalo SUNY</h4>
+              <span class="graduation-date">2027.05</span>
+              <p class="degree">Master of Science</p>
+              <p class="field">Pharmacology</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="research" data-page="research">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="flask-outline"></ion-icon> Work Experience
+          </h2>
+        </header>
+        <section class="timeline" id="experience-container">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Intern at the Department of Quality Control</h4>
+              <span class="duration">2024.11 - present</span>
+              <p class="institution">Bayer (China) Limited (Dihon Pharmaceutical Group Co. Ltd.)</p>
+              <div class="description-container">
+                <ul class="description-list">
+                  <li>Worked as a QC analyst at Bayer (China), performing quality control testing on pharmaceutical samples. Utilized HPLC, NIR, and microbiological methods to assess moisture content, microbial limits, active ingredient concentration, and granularity. Approved product release upon meeting all quality specifications and regulatory standards.</li>
+                </ul>
+              </div>
+              <div class="techniques-container">
+                <span class="technique-tag">Pharmaceutical Sciences & Drug Development</span>
+                <span class="technique-tag">GC-MS & Chromatography Techniques</span>
+                <span class="technique-tag">Network Pharmacology & Molecular Docking</span>
+                <span class="technique-tag">Biomedical Data Analysis & Statistical Methods</span>
+                <span class="technique-tag">Traditional Chinese Medicine Formulation</span>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="publications" data-page="publications">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="document-text-outline"></ion-icon> Publications
+          </h2>
+        </header>
+        <section class="timeline">
+          <ol class="timeline-list" id="publications-container">
+            <li class="timeline-item publication-item">
+              <h4 class="h4 publication-title">Retrosynthesis of Wulfenioidins L with Potential Anti-Zika Virus Activity</h4>
+              <p class="publication-journal">BIO Web of Conferences</p>
+              <p class="publication-year">2024</p>
+              <p class="publication-authors">Tanghe Wang*, Yuning Gu</p>
+              <div class="publication-link">
+                <a href="https://doi.org/10.1051/bioconf/202411102004" target="_blank">
+                  <ion-icon name="open-outline"></ion-icon> View Paper
+                </a>
+              </div>
+            </li>
+            <li class="timeline-item publication-item">
+              <h4 class="h4 publication-title">Study on the in Vitro Inhibitory Activity of Peony Seed Blended Oil on α-Amylase and α-Glucosidase</h4>
+              <p class="publication-journal">Journal of Clinical Medicine Research</p>
+              <p class="publication-year">2024</p>
+              <p class="publication-authors">Tiantian Sun, Zirui Chang, Fengliang Zhong, Zishu Li, Yu Fu, Yuning Gu*</p>
+              <div class="publication-link">
+                <a href="https://doi.org/10.32629/jcmr.v5i2.2288" target="_blank">
+                  <ion-icon name="open-outline"></ion-icon> View Paper
+                </a>
+              </div>
+            </li>
+            <li class="timeline-item publication-item">
+              <h4 class="h4 publication-title">Active ingredients and mechanisms of peony seed blended oil in diabetes treatment using Kunming mice: Insights from GC–MS, network pharmacology, and experimental verification</h4>
+              <p class="publication-journal">Journal of Functional Foods</p>
+              <p class="publication-year">2024</p>
+              <p class="publication-authors">Yuning Gu*, Fengliang Zhong, Tiantian Sun, Zirui Chang</p>
+              <div class="publication-link">
+                <a href="https://doi.org/10.1016/j.jff.2024.106652" target="_blank">
+                  <ion-icon name="open-outline"></ion-icon> View Paper
+                </a>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="construct-outline"></ion-icon> Projects
+          </h2>
+        </header>
+        <section class="timeline" id="projects-container">
+          <ol class="timeline-list">
+            <li class="timeline-item project-item">
+              <h4 class="h4 project-title">Retrosynthesis of Wulfenioidins L with Potential Anti-Zika Virus Activity</h4>
+              <p class="project-duration">2023.10-2024.01</p>
+              <p class="project-description">Proposed two retrosynthetic pathways for Wulfenioidin L, involving complex reactions like Diels-Alder and oxidation; Employed template-directed synthesis to pre-organize reactants; Drafted the preliminary manuscript framework and completed data analysis.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Diels–Alder reaction</span>
+                <span class="tech-tag">Oxidation reactions</span>
+                <span class="tech-tag">Template-directed synthesis</span>
+                <span class="tech-tag">ChemDraw</span>
+                <span class="tech-tag">Literature review and pathway design</span>
+              </div>
+              <div class="project-outcomes">
+                <h4>Outcomes:</h4>
+                <ul>
+                  <li>Designed two viable retrosynthetic pathways for Wulfenioidin L</li>
+                  <li>Enhanced understanding of complex organic synthesis strategies</li>
+                  <li>Drafted the manuscript framework for future publication</li>
+                  <li>Completed preliminary data analysis supporting synthesis feasibility</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item project-item">
+              <h4 class="h4 project-title">Study on the in Vitro Inhibitory Activity of Peony Seed Blended Oil on α-Amylase and α-Glucosidase</h4>
+              <p class="project-duration">2024.03-2024.07</p>
+              <p class="project-description">Designed the experimental protocol and implementation plan; coordinated laboratory resources, including procuring experimental animals and reserving institutional facilities; Implemented animal experiments and critical sample processing: Drafted the preliminary manuscript framework and completed data analysis.</p>
+              <div class="project-tech">
+                <span class="tech-tag">UV-Vis spectrophotometry (at 491 nm and 399 nm)</span>
+                <span class="tech-tag">DNS chromogenic assay</span>
+                <span class="tech-tag">α-Amylase and α-Glucosidase inhibition assays</span>
+                <span class="tech-tag">IC50 calculation and linear regression analysis</span>
+                <span class="tech-tag">One-way test and response surface methodology (RSM)</span>
+                <span class="tech-tag">Matlab for model fitting</span>
+                <span class="tech-tag">Statistical analysis with GraphPad Prism</span>
+                <span class="tech-tag">Precision pipetting (RAININ pipet-lite series)</span>
+                <span class="tech-tag">Centrifugation and sample preparation</span>
+              </div>
+              <div class="project-outcomes">
+                <h4>Outcomes:</h4>
+                <ul>
+                  <li>Established the optimal blend ratio of peony seed oil: soybean oil: rapeseed oil = 60:27:11</li>
+                  <li>Demonstrated in vitro inhibition of α-amylase (80.47%) and α-glucosidase (69.39%) higher than acarbose</li>
+                  <li>Calculated IC50 values for all oils and blends to evaluate hypoglycemic potency</li>
+                  <li>Revealed a positive correlation between linolenic acid content and inhibitory activity</li>
+                  <li>Published as first and corresponding author in Journal of Clinical Medicine Research</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item project-item">
+              <h4 class="h4 project-title">Active ingredients and mechanisms of peony seed blended oil in diabetes treatment using Kunming mice: Insights from GC–MS, network pharmacology, and experimental verification</h4>
+              <p class="project-duration">2024.04-2024.10</p>
+              <p class="project-description">Designed and conducted an integrated study combining GC–MS chemical profiling, network pharmacology, and in vivo/in vitro experiments. Evaluated the hypoglycemic effects of peony seed blended oil in diabetic mice by analyzing blood glucose, organ index, and histopathology. Identified key active components and molecular targets, and validated their effects through molecular docking and experimental verification.</p>
+              <div class="project-tech">
+                <span class="tech-tag">GC–MS (Gas Chromatography–Mass Spectrometry)</span>
+                <span class="tech-tag">Network pharmacology</span>
+                <span class="tech-tag">Molecular docking</span>
+                <span class="tech-tag">In vivo animal modeling (diabetic Kunming mice)</span>
+                <span class="tech-tag">Oral glucose tolerance test (OGTT)</span>
+                <span class="tech-tag">Histological analysis (H&E staining)</span>
+                <span class="tech-tag">SPSS and GraphPad Prism for statistical analysis</span>
+              </div>
+              <div class="project-outcomes">
+                <h4>Outcomes:</h4>
+                <ul>
+                  <li>Identified linoleic acid and alpha-linolenic acid as major active compounds</li>
+                  <li>Revealed PPARG and MAPK3 as key therapeutic targets</li>
+                  <li>Demonstrated significant reduction in fasting blood glucose in diabetic mice</li>
+                  <li>Validated hypoglycemic mechanism via molecular docking and biological experiments</li>
+                  <li>Laid theoretical foundation for future development of functional food or TCM-based antidiabetic agents</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="build-outline"></ion-icon> Technical Skills
+          </h2>
+        </header>
+        <section class="skills-container" id="technical-skills-container">
+          <div class="skills-group">
+            <h3 class="skills-category">Technical Skills</h3>
+            <ul class="skills-list">
+              <li class="skill-item">Microsoft Office</li>
+              <li class="skill-item">ChemDraw</li>
+              <li class="skill-item">SPSS</li>
+              <li class="skill-item">CAD ChemSketch</li>
+              <li class="skill-item">MatLab</li>
+              <li class="skill-item">Origin8.0</li>
+              <li class="skill-item">GC/MS</li>
+              <li class="skill-item">HPLC</li>
+              <li class="skill-item">NIR</li>
+              <li class="skill-item">Determination of hypoglycemic activity</li>
+              <li class="skill-item">Hematoxylin-eosin (H&E) staining</li>
+              <li class="skill-item">Network pharmacology analysis</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+      <article class="awards" data-page="awards">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="trophy-outline"></ion-icon> Honors & Awards
+          </h2>
+        </header>
+        <section class="timeline" id="awards-container">
+          <ol class="timeline-list">
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">The Excellence Award at the 9th 'Internet +' College Students Innovation and Entrepreneurship Competition</h4>
+              <p class="award-year">2023.08</p>
+              <p class="award-issuer">Heilongjiang University of Chinese Medicine</p>
+            </li>
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">The Excellence Award at the Innovation and Entrepreneurship Competition Challenge Cup</h4>
+              <p class="award-year">2022.06</p>
+              <p class="award-issuer">Heilongjiang University of Chinese Medicine</p>
+            </li>
+            <li class="timeline-item award-item">
+              <h4 class="h4 award-name">The First Prize in the Preliminary Round of the 2021 College Students First Aid Skills Competition</h4>
+              <p class="award-year">2021.10</p>
+              <p class="award-issuer">Shanghai Joint Center for Disaster Reduction and Emergency Management Promotion/ Sichuan Academy of Risk Science and Emergency Management/ Yunnan Association for Foreign Science and Technology Cooperation</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    'use strict';
+
+    // Toggle sidebar contacts
+    const sidebar = document.querySelector("[data-sidebar]");
+    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+    const sidebarMore = document.querySelector("[data-sidebar-more]");
+
+    sidebarBtn.addEventListener("click", function () {
+      sidebarMore.classList.toggle("active");
+      sidebarBtn.querySelector("span").textContent = sidebarMore.classList.contains("active") ? "Hide Contacts" : "Show Contacts";
+    });
+
+    // Handle navigation links
+    const navigationLinks = document.querySelectorAll("[data-nav-link]");
+    const pages = document.querySelectorAll("[data-page]");
+
+    navigationLinks.forEach((link) => {
+      link.addEventListener("click", function () {
+        navigationLinks.forEach(navLink => navLink.classList.remove("active"));
+        this.classList.add("active");
+
+        const pageName = this.textContent.toLowerCase().trim();
+        pages.forEach(page => page.classList.remove("active"));
+        const targetPage = document.querySelector(`[data-page="${pageName}"]`);
+        if (targetPage) {
+          targetPage.classList.add("active");
+          window.scrollTo(0, 0);
+        }
+      });
+    });
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
